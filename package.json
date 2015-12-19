@@ -1,6 +1,6 @@
 {
   "name": "reverse-url-shortener",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reverse url shortener. Get the location of those shortened urls.",
   "main": "src/reverse.js",
   "scripts": {

@@ -16,6 +16,18 @@ describe('reverse url shortener', function() {
         });
     });
 
+    it('should work with https also', function(done) {
+        reverse('https://bit.ly/1QRMTvp', function(err, url) {
+            if (err) {
+                throw new Error(err);
+            }
+
+            assert.equal(url, 'http://bjarneo.codes/');
+
+            done();
+        });
+    });
+
     it('should return an error since the url is not shortened', function(done) {
         reverse('http://bjarneo.codes/', function(err, url) {
             if (err) {

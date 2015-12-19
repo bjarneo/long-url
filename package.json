@@ -1,5 +1,5 @@
 {
-  "name": "reverse-url-shortener",
+  "name": "long-url",
   "version": "1.0.2",
   "description": "Reverse url shortener. Get the location of those shortened urls.",
   "main": "src/reverse.js",
@@ -10,15 +10,15 @@
     "test": "mocha test/"
   },
   "bin": {
-    "reverse-url": "./bin/reverse-url-shortener"
+    "long-url": "./bin/reverse-url-shortener"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bjarneo/reverse-url-shortener.git"
+    "url": "https://github.com/bjarneo/long-url.git"
   },
-  "homepage": "https://github.com/bjarneo/reverse-url-shortener",
+  "homepage": "https://github.com/bjarneo/long-url",
   "bugs": {
-    "url": "https://github.com/bjarneo/reverse-url-shortener/issues"
+    "url": "https://github.com/bjarneo/long-url/issues"
   },
   "keywords": [
     "reverse",

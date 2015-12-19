@@ -1,4 +1,4 @@
-reverse-url-shortener
+long-url
 ======
 
 What
@@ -8,13 +8,13 @@ Reverse url shortener. Get the location of those shortened urls.
 Installation
 ------
 ```
-npm install -g reverse-url-shortener
+npm install -g long-url
 ```
 
 or
 
 ```
-npm install --save reverse-url-shortener
+npm install --save long-url
 ```
 
 Usage
@@ -28,7 +28,7 @@ $ reverse-url http://ow.ly/W7oOu
 
 JavaScript
 ```
-var reverse = require('reverse-url-shortener');
+var reverse = require('long-url');
 
 reverse('http://ow.ly/W7oOu', function(err, url) {
     if (err) {

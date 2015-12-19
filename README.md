@@ -21,13 +21,15 @@ Usage
 ------
 CLI
 ```
-reverse-url http://ow.ly/W7oOu
+$ reverse-url http://ow.ly/W7oOu
 
 // Output: >> http://ow.ly/W7oOu is http://bjarneo.codes/
 ```
 
 JavaScript
 ```
+var reverse = require('reverse-url-shortener');
+
 reverse('http://ow.ly/W7oOu', function(err, url) {
     if (err) {
         throw new Error(err);

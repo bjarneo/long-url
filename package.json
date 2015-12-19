@@ -1,0 +1,38 @@
+{
+  "name": "reverse-url-shortener",
+  "version": "1.0.0",
+  "description": "Reverse url shortener. Get the location of those shortened urls.",
+  "main": "src/reverse.js",
+  "scripts": {
+    "posttest": "npm run lint",
+    "prepublish": "npm prune && npm test",
+    "lint": "eslint .",
+    "test": "mocha test/"
+  },
+  "bin": {
+    "reverse-url": "./bin/reverse-url-shortener"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/reverse-url-shortener.git"
+  },
+  "homepage": "https://github.com/bjarneo/reverse-url-shortener",
+  "bugs": {
+    "url": "https://github.com/bjarneo/reverse-url-shortener/issues"
+  },
+  "keywords": [
+    "reverse",
+    "url",
+    "shortener",
+    "shorten",
+    "header",
+    "location"
+  ],
+  "author": "Bjarne Oeverli",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "eslint-config-vgno": "^5.0.0",
+    "eslint": "^1.8.0"
+  }
+}

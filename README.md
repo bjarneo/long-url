@@ -21,7 +21,7 @@ Usage
 ------
 CLI
 ```
-$ reverse-url http://ow.ly/W7oOu
+$ long-url http://ow.ly/W7oOu
 
 // Output: >> http://ow.ly/W7oOu is http://bjarneo.codes/
 ```
